@@ -30,11 +30,28 @@
 
         <ul class="menu">
           <li class=""><a href="/elements">Elements</a></li>
-          <li class=""><a href="/components/grid.html">Grid</a></li>
+          <li class=""><a href="/components">Components</a></li>
+          <li class="dropdown ">
+            <a href="/components/grid.html">Grid</a>
+            <ul class="menu">
+              <li><a href="/components/grid.html#two-columns">Two columns</a></li>
+              <li><a href="/components/grid.html#three-columns">Three columns</a></li>
+              <li><a href="/components/grid.html#four-columns">Four columns</a></li>
+              <li><a href="/components/grid.html#five-columns">Five columns</a></li>
+              <li><a href="/components/grid.html#six-columns">Six columns</a></li>
+              <li><a href="/components/grid.html#seven-columns">Seven columns</a></li>
+              <li><a href="/components/grid.html#eight-columns">Eight columns</a></li>
+              <li><a href="/components/grid.html#nine-columns">Nine columns</a></li>
+              <li><a href="/components/grid.html#ten-columns">Ten columns</a></li>
+              <li><a href="/components/grid.html#eleven-columns">Eleven columns</a></li>
+              <li><a href="/components/grid.html#twelve-columns">Twelve columns</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="/mobile">Mobile</a></li>
         </ul>
 
-        <ul class="menu right">
-          <li><a href="https://github.com/miclle/mice"><i class="icon github"></i> Gighub</a></li>
+        <ul class="menu righted">
+          <li><a href="https://github.com/miclle/mice"><i class="icon github"></i> Github</a></li>
         </ul>
       </div>
     </nav>
@@ -66,23 +83,9 @@
     <li><a href="/components/forms.html">Forms</a></li>
     <li><a href="/components/timeline.html">Timeline</a></li>
 
-    <li class="heading">Grid</li>
+    <li><a href="/components/navbar.html">Navbar</a></li>
 
-    <li>
-      <a href="/components/grid.html">Grid</a>
-    </li>
-
-    <li><a href="/components/grid.html#two-columns">Two columns</a></li>
-    <li><a href="/components/grid.html#three-columns">Three columns</a></li>
-    <li><a href="/components/grid.html#four-columns">Four columns</a></li>
-    <li><a href="/components/grid.html#five-columns">Five columns</a></li>
-    <li><a href="/components/grid.html#six-columns">Six columns</a></li>
-    <li><a href="/components/grid.html#seven-columns">Seven columns</a></li>
-    <li><a href="/components/grid.html#eight-columns">Eight columns</a></li>
-    <li><a href="/components/grid.html#nine-columns">Nine columns</a></li>
-    <li><a href="/components/grid.html#ten-columns">Ten columns</a></li>
-    <li><a href="/components/grid.html#eleven-columns">Eleven columns</a></li>
-    <li><a href="/components/grid.html#twelve-columns">Twelve columns</a></li>
+    <li class="heading"><a href="/components/grid.html">Grid</a></li>
 
     <!--
     <li class="heading">Navigation</li>
@@ -97,11 +100,9 @@
 
     <div class="column nine grid-doc">
 
-      <h2 class="title">Responsive Grid System</h2>
+      <h1 class="title">Responsive Grid System</h1>
 
-      <div class="section group">
-        <h3 id="two-columns">Two Columns</h3>
-      </div>
+      <h2 id="two-columns">Two Columns</h2>
 
       <div class="grid two">
         <div class="column">half</div>
@@ -109,12 +110,13 @@
       </div>
 
       <div class="grid two">
-        <div class="column right">the right half</div>
+        <div class="column righted">the right half</div>
       </div>
 
       <div class="section group example">
-        <h3 id="three-columns">Three Columns</h3>
+        <h2 id="three-columns">Three Columns</h2>
       </div>
+
 
       <div class="grid three">
         <div class="column">one third</div>
@@ -128,12 +130,11 @@
       </div>
 
       <div class="grid three">
-        <div class="column center">the middle one-third</div>
+        <div class="column centered">the middle one-third</div>
       </div>
 
-      <div class="section group">
-        <h3 id="four-columns">Four Columns</h3>
-      </div>
+
+      <h2 id="four-columns">Four Columns</h2>
 
       <div class="grid four">
         <div class="column">quarter</div>
@@ -142,9 +143,8 @@
         <div class="column">quarter</div>
       </div>
 
-      <div class="section group">
-        <h3 id="five-columns">Five Columns</h3>
-      </div>
+
+      <h2 id="five-columns">Five Columns</h2>
 
       <div class="grid five">
         <div class="column">fifth</div>
@@ -154,9 +154,8 @@
         <div class="column">fifth</div>
       </div>
 
-      <div class="section group">
-        <h3 id="six-columns">Six Columns</h3>
-      </div>
+
+      <h2 id="six-columns">Six Columns</h2>
 
       <div class="grid six">
         <div class="column">sixth</div>
@@ -167,9 +166,8 @@
         <div class="column">sixth</div>
       </div>
 
-      <div class="section group">
-        <h3 id="seven-columns">Seven Columns</h3>
-      </div>
+
+      <h2 id="seven-columns">Seven Columns</h2>
 
       <div class="grid seven">
         <div class="column">seventh</div>
@@ -181,9 +179,8 @@
         <div class="column">seventh</div>
       </div>
 
-      <div class="section group">
-        <h3 id="eight-columns">Eight Columns</h3>
-      </div>
+
+      <h2 id="eight-columns">Eight Columns</h2>
 
       <div class="grid eight">
         <div class="column">eighth</div>
@@ -196,9 +193,8 @@
         <div class="column">eighth</div>
       </div>
 
-      <div class="section group">
-        <h3 id="nine-columns">Nine Columns</h3>
-      </div>
+
+      <h2 id="nine-columns">Nine Columns</h2>
 
       <div class="grid nine">
         <div class="column">ninth</div>
@@ -212,9 +208,8 @@
         <div class="column">ninth</div>
       </div>
 
-      <div class="section group">
-        <h3 id="ten-columns">Ten Columns</h3>
-      </div>
+
+      <h2 id="ten-columns">Ten Columns</h2>
 
       <div class="grid ten">
         <div class="column">tenth</div>
@@ -229,9 +224,8 @@
         <div class="column">tenth</div>
       </div>
 
-      <div class="section group">
-        <h3 id="eleven-columns">Eleven Columns</h3>
-      </div>
+
+      <h2 id="eleven-columns">Eleven Columns</h2>
 
       <div class="grid eleven">
         <div class="column">eleventh</div>
@@ -248,9 +242,7 @@
       </div>
 
 
-      <div class="section group">
-        <h3 id="twelve-columns">Twelve Columns</h3>
-      </div>
+      <h2 id="twelve-columns">Twelve Columns</h2>
 
       <div class="grid twelve">
         <div class="column">twelfth</div>
@@ -282,11 +274,11 @@
       </div>
 
       <div class="grid twelve">
-        <div class="column nine center">nine twelfths</div>
+        <div class="column nine centered">nine twelfths</div>
       </div>
 
       <div class="grid twelve">
-        <div class="column nine right">nine twelfths</div>
+        <div class="column nine righted">nine twelfths</div>
       </div>
 
     </div>
@@ -300,7 +292,7 @@
         <p>Mice was lovingly crafted by  <a href="http://twitter.com/miclle" target="_blank"><i class="icon twitter"></i> @miclle</a></p>
         <p>Code licensed under <a href="https://github.com/miclle/mice/blob/master/LICENSE" target="_blank">MIT</a>.</p>
         <ul>
-          <li>Currently v0.1.4</li>
+          <li>Currently v0.1.6</li>
           <li><a href="https://github.com/miclle/mice"><i class="icon github"></i> Mice</a></li>
         </ul>
       </div>
